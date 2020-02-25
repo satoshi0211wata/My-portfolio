@@ -352,13 +352,12 @@ a img:hover {
 #contact .form button {
   background: #2ECC87;
   color: #ffffff;
-  font-size: 20px;
-  width: 120px;
+  font-size: 15px;
+  width: 100px;
   display: block;
   text-align: center;
   line-height: 50px;
   border-radius: 5px;
-  margin-left: 165px;
 }
 
 #contact .form button:hover {
@@ -379,7 +378,6 @@ a img:hover {
 @media screen and (max-width:600px) {
   body {
     font-size: 3.5vw;
-    background-color: #rgb;
   }
   h1 {
     font-size: 7.2vw;
@@ -422,13 +420,12 @@ a img:hover {
     margin:0;
     padding: 30px 10% 10px;
   }
-  
+}
   
   
 
   
   
-}
 
 
 

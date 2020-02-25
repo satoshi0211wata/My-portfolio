@@ -44,7 +44,7 @@
     <section>
       <h2 class="icon">Contact form</h2>
       <div class="form">
-        <form　name="contact" method="POST" data-netlify="true">
+        <!-- <form　name="contact" method="POST" data-netlify="true">
           <dl>
             <dt><span class="required">お名前</span></dt>
             <dd><input type="text" name="name" class="name" required></dd>
@@ -72,6 +72,35 @@
           <div class="attention">
             <p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージの送信後、48時間以内に担当者よりご連絡いたします。</p>
           </div>
+        </form> -->
+        <form name="contact" method="POST" data-netlify="true">
+          <table class="table-res-form">
+            <tr>
+            <th>お名前 
+            <!-- <span class="requied">必須</span> -->
+            </th>
+            <td><input type="text" name="name" class="name" required></td>
+            </tr>
+            <tr>
+            <th>メールアドレス 
+            <!-- <span class="requied">必須</span> -->
+            </th>
+            <td><input type="email" name="email" class="email" required></td>
+            </tr>
+            <tr>
+            <th>お電話番号</th>
+            <td><input type="tel" name="tel" class="tel"></td>
+            </tr>
+            <tr>
+            <th>メッセージ本文 </th>
+            <td><textarea name="message" class="message"></textarea></td>
+            </tr>
+            <tr>
+            <th class="empty">&nbsp;</th>
+            <td><button type="submit" class="btn">送信
+              </button></td>
+            </tr>
+          </table>
         </form>
       </div>
     </section>
