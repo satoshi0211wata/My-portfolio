@@ -26,12 +26,43 @@
     <section>
       <h2 class="icon">Chat-Space</h2>
       <h2><a href="http://18.177.30.222/"><img src="images/chat-space.png" alt="chatspace" style="width:700px; height: 300px"></a></h2>
-      <p>はじめて世界に公開したアプリケーション。Chat-Spaceは複数人によるチャット機能を搭載したwebアプリケーション。基本機能はRuby on Railsを使い、非同期の処理はJavaScript、ログ管理はGitHubで開発を行ってます。WEBサーバーはAWSを使って構築。<a href="http://18.177.30.222/">アプリを見る　>></a></p>
+      <span>アプリの説明</span>
+      <p>はじめて世界に公開したアプリケーション。Chat-Spaceは複数人によるチャット機能を搭載したwebアプリケーション。
+        <br>TEST用Log in：Eメール/login@mail  パスワード/aaaaaaaa
+        <br><a href="http://18.177.30.222/">アプリを見る　>></a></p>
+      <span>扱ったツール</span>
+      <p>Mac/Ruby on Rails/Ruby/HTML(haml)/CSS(sass)/JavaScript/jquery/SQL/git/github/<br>Linux/AWS(EC2,IAM,S3)/Node.js/MySQL/Unicorn/Nginx/Capistrano</p>
+      <span>工夫した点</span>
+      <p>◯チャットメッセージの送信機能（非同期処理）にAjax通信,jbuilderを使用して最小限のデータアクセスで投稿、反映できるユーザーアクセシビリティにした。
+        <br>◯チャットグループ作成機能の中で非同期通信でメンバー検索、追加したメンバーの反映（インクルメンタルサーチ、追加）を行えるようにした。
+        <br>◯AWSを使ってデプロイ。EC2インスタンス内で、OSはLinux、webサーバーはNginx、アプリケーションサーバーはUnicorn、データベースはMySQL、Capistranoを使いGitHub経由で自動デプロイをできるように環境構築した。画像はS3に保存。
+      </p>
     </section>
     <h2 class="icon">FMarket（フリーマーケットサイト）</h2>
     <section>
       <h2><a href="http://18.176.88.244/"><img src="images/copy.jpg" alt="COPY" style="width:700px; height: 300px"></a></h2>
-      <p>チーム開発を初体験。FMarketは既存サイトを参考にしたフリーマーケットサイト。4人で１チームを組み、Githubでバージョン管理しながら模擬的に期限を設けてアジャイル開発を行う。AWSでサーバー構築。※一部、機能不完全な部分あり。<a href="http://18.176.88.244/">サイトを見る　>></a></p>
+      <span>説明</span>
+      <p>チーム開発を初体験。FMarketは既存サイトを参考にしたフリーマーケットサイト。4人１チームで模擬的に期限を設けてアジャイル開発を行いサイト作成。※一部、機能不完全な部分あり。
+        <br>◯ID/Pass　　ID: admin/Pass: 2222
+        <br>◯テスト用アカウント等
+        <br>＜購入者用＞メールアドレス: test-k@gmail
+        パスワード: aaaaaa
+        <br>購入用カード情報
+        番号：4242424242424242
+        期限：01月2022年
+        ユーザー名：購入者
+        <br>セキュリティコード：123
+        <br>＜出品者用＞
+        <br>メールアドレス名: test-s@gmail
+        パスワード: bbbbbb
+        
+        <br><a href="http://18.176.88.244/">サイトを見る　>></a></p>
+      <span>扱ったツール</span>
+      <p>Mac/Ruby on Rails/Ruby/HTML(haml)/CSS(sass)/JavaScript/jquery/SQL/git/github/<br>Linux/AWS(EC2,IAM,S3)/Node.js/MySQL/Unicorn/Nginx/Capistrano</p>
+      <span>工夫した点</span>
+      <p>◯ログイン機能にWEB APIを利用しSNS認証（Facebook,Google)できるようにした。
+        <br>◯チーム開発ではTrelloでタスク管理し、チーム状況を見える化して作業効率のアップ。
+        <br>◯チーム内でGitHubログ管理、コードレビュー、コンフリクト解消を行い、アジャイル開発の良さを（各々がタスク消化）活かしながら開発を行った。</p>
     </section>
   </div>
   <aside class="sidebar">

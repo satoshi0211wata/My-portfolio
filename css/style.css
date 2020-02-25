@@ -230,6 +230,10 @@ table {
   float: left;
 }
 
+#portfolio .main span {
+  font-weight: bold;
+}
+
 .sidebar {
   width: 200px;
   margin: 0 10px 0 30px;
