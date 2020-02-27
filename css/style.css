@@ -316,40 +316,39 @@ a img:hover {
   padding: 30px 50px;
 }
 
+ .form table {
+  width:100%;
+  /* margin:0 auto; */
+ }
 
-#contact .form dl dt {
-  width: 165px;
-  padding: 10px 0;
-  float: left;
-  clear: both;
-}
+.table-res-form tbody th{
+  width:30%;
+  }
 
-#contact .form dl dd {
-  padding: 10px 0;
-}
+.table-res-form th, .table-res-form td{
+  padding:10px 5px; 
+  vertical-align: middle; 
+  text-align: left;  
+  }
 
 #contact .form .name {
-  width: 240px;
+  width: 70%;
   height: 30px;
-}
+} 
 
 #contact .form .email {
-  width: 300px;
+  width:90%;
   height: 30px;
 }
 
 #contact .form .tel {
-  width: 240px;
+  width: 70%;
   height: 30px;
 }
 
-#contact .form .type {
-  width: 180px;
-  height: 30px;
-}
 
 #contact .form .message {
-  width: 660px;
+  width: 90%;
   height: 150px;
 }
 
@@ -364,20 +363,12 @@ a img:hover {
   border-radius: 5px;
 }
 
-#contact .form button:hover {
+ #contact .form button:hover {
   background-color: #ffffff;
   color: #2ECC87;
   cursor: pointer;
-}
+} 
 
-#contact .form .required:after {
-  content: "✳︎";
-  color: #ff0000;
-}
-
-#contact .form .attention {
-  margin: 20px 0 0 165px;
-}
 
 @media screen and (max-width:600px) {
   body {
@@ -391,14 +382,15 @@ a img:hover {
   }
   header {
     width:auto;
-    margin:0 5%;
+  }
+  .global-nav {
+    float: none;
+    text-align:center;
   }
   .global-nav li {
     display: inline;
     float: none;
-    text-align:center;
-    margin: 0 auto;
-    padding: 0 10px;
+    margin: 0 8px;
   }
   #wrap {
     margin-top: 10px;
@@ -424,7 +416,85 @@ a img:hover {
     margin:0;
     padding: 30px 10% 10px;
   }
+
+  #index {
+    background: url(../images/IMG_8483.jpg) no-repeat center center;
+    background-size:contain;
+    margin : 0 5px;
+  }
+  .index-br {
+    display: none;
+  }
+  #index h1 {
+    font-size: 50px;
+    line-height:1.2em;
+  }
+  #index .content {
+    margin-top: 100px;
+  }
+  #index .btn {
+    margin-top: 150px;
+  }
+  #index footer {
+    margin : 50px auto 0;
+    width: 100%;
+  }
+  .main-center {
+    width: auto;
+    margin: 0 5%;
+    float :none;
+  }
+  .profile-txt {
+    max-width: 100%;
+    float:none;
+  }
+  .profile-image {
+    max-width: 100%;
+    text-align:center
+  }
+  #about .profile-image {
+    float: none;
+  }
+
+  #contact .access table {
+    float: none;
 }
+  .ggmap { 
+      position: relative; 
+      padding-bottom: 56.25%; 
+  }
+  #contact .access iframe {
+    width: 100%;
+    float: none;
+}
+  .ggmap iframe, 
+  .ggmap object, 
+  .ggmap embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  }
+  .form table {
+    table-layout: fixed;
+    width:100%;
+  }
+  .form th,.form td {
+    display: block;
+    width: 100%;
+    border-bottom: none;
+  }
+  .form .table-res-form tbody th {
+    width: 100%;
+}
+  input textarea {
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Chrome, Safari */
+}
+  }
+  
+
+
+
   
   
 
